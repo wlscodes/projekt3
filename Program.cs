@@ -12,11 +12,34 @@ namespace Project3
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("First and second");
             SortingBase[] sortings = { new SelectionSort(), new InsertionSort(), new HeapSort(), new CocktailSort() };
             ArrayBase[] arrays = { new AscendingArray(), new DescendingArray(), new ConstArray(), new RandomArray(), new VShapedArray() };
-            int minSize = 50000, maxSize = 200000, step = 10000;
+            int minSize = 30000, maxSize = 200000, step = 10000;
 
+            //First and Second part
             Engine(arrays, sortings, minSize, maxSize, step);
+
+            Console.WriteLine("Third point A");
+
+            //Third point A
+            Engine(
+                new ArrayBase[]{ new RandomArray()}, 
+                new SortingBase[]{ new QuickSortRecursion(), new QuickSortIteration() },
+                minSize, maxSize, step
+            );
+
+            Console.WriteLine("Third point B");
+
+            //Third point B
+            Engine(
+                new ArrayBase[] {new AShapedArray()},
+                new SortingBase[] {new QuickSortRecursion(), new QuickSortRecursionPivotLast(), new QuickSortRecursionPivotRandom()},
+                minSize, maxSize, step
+            );
+
+            Console.WriteLine("Koniec");
+
             Console.ReadKey();
         }
 
