@@ -16,7 +16,8 @@ namespace Project3.Classes.Sorting
         {
             int i, j, x;
             i = left;
-            j = x = right;
+            j = right;
+            x = tab[right];
             
             do
             {
