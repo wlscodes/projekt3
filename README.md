@@ -1,4 +1,7 @@
 # projekt3
-Projekt3 algorytmy
+Projekt2 algorytmy
 
-Directory Classes contain classes for generate arrays and sorting methods
+data.xlsx - Arkusz kalkulacyjny z tabelami oraz wykresami
+notatki.pdf - podsumowanie zadania
+Program.cs - główny kod programu
+classes - folder zawierający klasy sortowania oraz tworzenia tablic
