@@ -1,5 +1,5 @@
 # projekt3
-Projekt2 algorytmy
+Projekt3 algorytmy
 
 data.xlsx - Arkusz kalkulacyjny z tabelami oraz wykresami<br>
 notatki.pdf - podsumowanie zadania<br>
