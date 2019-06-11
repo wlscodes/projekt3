@@ -1,7 +1,7 @@
 # projekt3
 Projekt2 algorytmy
 
-data.xlsx - Arkusz kalkulacyjny z tabelami oraz wykresami
-notatki.pdf - podsumowanie zadania
-Program.cs - główny kod programu
-classes - folder zawierający klasy sortowania oraz tworzenia tablic
+data.xlsx - Arkusz kalkulacyjny z tabelami oraz wykresami<br>
+notatki.pdf - podsumowanie zadania<br>
+Program.cs - główny kod programu<br>
+Classes - folder zawierający klasy sortowania oraz tworzenia tablic<br>
